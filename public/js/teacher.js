@@ -27,7 +27,8 @@
 
   // ───────── 로그인 (PRD 4.1) ─────────
   async function login(msg = '') {
-    const cfg = await api('/api/auth/config').catch(() => ({}));
+    const cfg = await api('/api/auth/config').catch(e => ({ error: e }));
+    if (cfg.error && !msg) msg = cfg.error.message;
     root.innerHTML = `
       <div class="login-wrap">
         <div style="text-align:center;margin-bottom:1.2rem"><div style="font-size:2.6rem">🧑‍🏫</div><h1>교사 관리자 로그인</h1><p class="muted">반별 방 관리와 수행평가 자료는 교사 로그인 후 이용할 수 있어요.</p></div>

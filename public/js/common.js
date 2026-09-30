@@ -12,6 +12,8 @@
     del(k) { try { localStorage.removeItem(k); } catch {} }
   };
 
+  const SERVER_HINT = '앱 서버에 연결되지 않았어요. start.bat으로 서버를 켠 뒤 http://localhost:3000 주소로 접속해 주세요. (파일을 직접 열거나 Live Server로 열면 작동하지 않아요)';
+
   class ApiError extends Error {
     constructor(status, body) { super(body.error || '요청을 처리하지 못했어요.'); this.status = status; this.code = body.code; this.body = body; }
   }
@@ -24,12 +26,16 @@
     if (token) headers['x-student-token'] = token;
     try {
       const res = await fetch(path, { method, headers, body: body === undefined ? undefined : JSON.stringify(body), signal: ctl.signal, credentials: 'same-origin' });
-      const data = res.headers.get('content-type')?.includes('json') ? await res.json() : {};
+      const isJson = res.headers.get('content-type')?.includes('json');
+      // JSON이 아닌 응답 = 앱 서버가 아닌 곳(Live Server·파일 미리보기 등)에서 페이지를 연 경우
+      if (!isJson && path.startsWith('/api/')) throw new ApiError(0, { error: SERVER_HINT, code: 'NO_APP_SERVER' });
+      const data = isJson ? await res.json() : {};
       if (!res.ok) throw new ApiError(res.status, data);
       return data;
     } catch (e) {
       if (e instanceof ApiError) throw e;
-      const err = new ApiError(0, { error: '네트워크에 연결할 수 없어요.', code: 'NETWORK' });
+      if (location.protocol === 'file:') throw new ApiError(0, { error: SERVER_HINT, code: 'NO_APP_SERVER' });
+      const err = new ApiError(0, { error: '서버에 연결할 수 없어요. 서버(start.bat)가 켜져 있는지, 인터넷 연결을 확인해 주세요.', code: 'NETWORK' });
       err.offline = true;
       throw err;
     } finally { clearTimeout(t); }
