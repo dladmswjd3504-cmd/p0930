@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>영단어 800</title>
+  <meta name="description" content="중학 영단어 800 — 셀프테스트 암기와 스피드 게임">
+  <meta name="theme-color" content="#3b5bdb">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon.svg">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/student.css">
+</head>
+<body>
+  <main id="app" aria-live="polite"></main>
+  <noscript>이 앱은 자바스크립트가 필요해요.</noscript>
+  <script src="/shared/scoring.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/student.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
+  </script>
+</body>
+</html>

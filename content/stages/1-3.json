@@ -1,0 +1,1165 @@
+[
+  {
+    "word": "address",
+    "pos": "n.",
+    "meanings": [
+      "주소"
+    ],
+    "phonetic": "/ˈædres/",
+    "example_en": "Please write your address on the card.",
+    "example_target": "address",
+    "example_ko": "카드에 네 주소를 써 줘.",
+    "confusables": []
+  },
+  {
+    "word": "airport",
+    "pos": "n.",
+    "meanings": [
+      "공항"
+    ],
+    "phonetic": "/ˈerpɔːrt/",
+    "example_en": "We arrived at the airport early.",
+    "example_target": "airport",
+    "example_ko": "우리는 공항에 일찍 도착했다.",
+    "confusables": []
+  },
+  {
+    "word": "market",
+    "pos": "n.",
+    "meanings": [
+      "시장"
+    ],
+    "phonetic": "/ˈmɑːrkɪt/",
+    "example_en": "My mom buys fruit at the market.",
+    "example_target": "market",
+    "example_ko": "엄마는 시장에서 과일을 사신다.",
+    "confusables": []
+  },
+  {
+    "word": "theater",
+    "pos": "n.",
+    "meanings": [
+      "극장"
+    ],
+    "phonetic": "/ˈθiːətər/",
+    "example_en": "Let's watch a movie at the theater.",
+    "example_target": "theater",
+    "example_ko": "극장에서 영화 보자.",
+    "confusables": []
+  },
+  {
+    "word": "festival",
+    "pos": "n.",
+    "meanings": [
+      "축제"
+    ],
+    "phonetic": "/ˈfestɪvl/",
+    "example_en": "The school festival is next Friday.",
+    "example_target": "festival",
+    "example_ko": "학교 축제는 다음 주 금요일이다.",
+    "confusables": []
+  },
+  {
+    "word": "culture",
+    "pos": "n.",
+    "meanings": [
+      "문화"
+    ],
+    "phonetic": "/ˈkʌltʃər/",
+    "example_en": "I want to learn about Korean culture.",
+    "example_target": "culture",
+    "example_ko": "나는 한국 문화에 대해 배우고 싶다.",
+    "confusables": []
+  },
+  {
+    "word": "language",
+    "pos": "n.",
+    "meanings": [
+      "언어"
+    ],
+    "phonetic": "/ˈlæŋɡwɪdʒ/",
+    "example_en": "English is a difficult language for me.",
+    "example_target": "language",
+    "example_ko": "영어는 나에게 어려운 언어이다.",
+    "confusables": []
+  },
+  {
+    "word": "grade",
+    "pos": "n.",
+    "meanings": [
+      "학년",
+      "성적"
+    ],
+    "phonetic": "/ɡreɪd/",
+    "example_en": "I am in the first grade of middle school.",
+    "example_target": "grade",
+    "example_ko": "나는 중학교 1학년이다.",
+    "confusables": []
+  },
+  {
+    "word": "test",
+    "pos": "n.",
+    "meanings": [
+      "시험",
+      "검사"
+    ],
+    "phonetic": "/test/",
+    "example_en": "We have a math test tomorrow.",
+    "example_target": "test",
+    "example_ko": "우리는 내일 수학 시험이 있다.",
+    "confusables": [
+      "taste"
+    ]
+  },
+  {
+    "word": "exam",
+    "pos": "n.",
+    "meanings": [
+      "시험"
+    ],
+    "phonetic": "/ɪɡˈzæm/",
+    "example_en": "I studied hard for the exam.",
+    "example_target": "exam",
+    "example_ko": "나는 시험을 위해 열심히 공부했다.",
+    "confusables": [
+      "example"
+    ]
+  },
+  {
+    "word": "club",
+    "pos": "n.",
+    "meanings": [
+      "동아리"
+    ],
+    "phonetic": "/klʌb/",
+    "example_en": "I joined the soccer club this year.",
+    "example_target": "club",
+    "example_ko": "나는 올해 축구 동아리에 가입했다.",
+    "confusables": []
+  },
+  {
+    "word": "member",
+    "pos": "n.",
+    "meanings": [
+      "회원",
+      "구성원"
+    ],
+    "phonetic": "/ˈmembər/",
+    "example_en": "She is a member of the band.",
+    "example_target": "member",
+    "example_ko": "그녀는 밴드의 멤버이다.",
+    "confusables": [
+      "remember"
+    ]
+  },
+  {
+    "word": "team",
+    "pos": "n.",
+    "meanings": [
+      "팀"
+    ],
+    "phonetic": "/tiːm/",
+    "example_en": "Our team won the game.",
+    "example_target": "team",
+    "example_ko": "우리 팀이 경기에서 이겼다.",
+    "confusables": []
+  },
+  {
+    "word": "captain",
+    "pos": "n.",
+    "meanings": [
+      "주장",
+      "선장"
+    ],
+    "phonetic": "/ˈkæptɪn/",
+    "example_en": "Minho is the captain of our team.",
+    "example_target": "captain",
+    "example_ko": "민호는 우리 팀의 주장이다.",
+    "confusables": []
+  },
+  {
+    "word": "contest",
+    "pos": "n.",
+    "meanings": [
+      "대회"
+    ],
+    "phonetic": "/ˈkɑːntest/",
+    "example_en": "She won first place in the singing contest.",
+    "example_target": "contest",
+    "example_ko": "그녀는 노래 대회에서 1등을 했다.",
+    "confusables": [
+      "context"
+    ]
+  },
+  {
+    "word": "prize",
+    "pos": "n.",
+    "meanings": [
+      "상"
+    ],
+    "phonetic": "/praɪz/",
+    "example_en": "He got a prize for his drawing.",
+    "example_target": "prize",
+    "example_ko": "그는 그림으로 상을 받았다.",
+    "confusables": [
+      "price"
+    ]
+  },
+  {
+    "word": "dream",
+    "pos": "n.",
+    "meanings": [
+      "꿈"
+    ],
+    "phonetic": "/driːm/",
+    "example_en": "My dream is to become a singer.",
+    "example_target": "dream",
+    "example_ko": "내 꿈은 가수가 되는 것이다.",
+    "confusables": []
+  },
+  {
+    "word": "future",
+    "pos": "n.",
+    "meanings": [
+      "미래"
+    ],
+    "phonetic": "/ˈfjuːtʃər/",
+    "example_en": "What do you want to be in the future?",
+    "example_target": "future",
+    "example_ko": "너는 미래에 무엇이 되고 싶니?",
+    "confusables": []
+  },
+  {
+    "word": "job",
+    "pos": "n.",
+    "meanings": [
+      "직업",
+      "일"
+    ],
+    "phonetic": "/dʒɑːb/",
+    "example_en": "My father likes his job very much.",
+    "example_target": "job",
+    "example_ko": "아빠는 자신의 직업을 매우 좋아하신다.",
+    "confusables": []
+  },
+  {
+    "word": "doctor",
+    "pos": "n.",
+    "meanings": [
+      "의사"
+    ],
+    "phonetic": "/ˈdɑːktər/",
+    "example_en": "You should see a doctor.",
+    "example_target": "doctor",
+    "example_ko": "너는 의사에게 진찰을 받아야 해.",
+    "confusables": []
+  },
+  {
+    "word": "nurse",
+    "pos": "n.",
+    "meanings": [
+      "간호사"
+    ],
+    "phonetic": "/nɜːrs/",
+    "example_en": "The nurse gave me some medicine.",
+    "example_target": "nurse",
+    "example_ko": "간호사가 나에게 약을 주었다.",
+    "confusables": []
+  },
+  {
+    "word": "farmer",
+    "pos": "n.",
+    "meanings": [
+      "농부"
+    ],
+    "phonetic": "/ˈfɑːrmər/",
+    "example_en": "The farmer grows rice and corn.",
+    "example_target": "farmer",
+    "example_ko": "그 농부는 쌀과 옥수수를 기른다.",
+    "confusables": []
+  },
+  {
+    "word": "police",
+    "pos": "n.",
+    "meanings": [
+      "경찰"
+    ],
+    "phonetic": "/pəˈliːs/",
+    "example_en": "Call the police right now!",
+    "example_target": "police",
+    "example_ko": "지금 당장 경찰을 불러!",
+    "confusables": [
+      "polite"
+    ]
+  },
+  {
+    "word": "scientist",
+    "pos": "n.",
+    "meanings": [
+      "과학자"
+    ],
+    "phonetic": "/ˈsaɪəntɪst/",
+    "example_en": "I want to be a scientist someday.",
+    "example_target": "scientist",
+    "example_ko": "나는 언젠가 과학자가 되고 싶다.",
+    "confusables": [
+      "science"
+    ]
+  },
+  {
+    "word": "artist",
+    "pos": "n.",
+    "meanings": [
+      "예술가",
+      "화가"
+    ],
+    "phonetic": "/ˈɑːrtɪst/",
+    "example_en": "The artist painted a beautiful picture.",
+    "example_target": "artist",
+    "example_ko": "그 화가는 아름다운 그림을 그렸다.",
+    "confusables": []
+  },
+  {
+    "word": "pilot",
+    "pos": "n.",
+    "meanings": [
+      "조종사"
+    ],
+    "phonetic": "/ˈpaɪlət/",
+    "example_en": "The pilot flies a big airplane.",
+    "example_target": "pilot",
+    "example_ko": "그 조종사는 큰 비행기를 조종한다.",
+    "confusables": []
+  },
+  {
+    "word": "cook",
+    "pos": "v.",
+    "meanings": [
+      "요리하다"
+    ],
+    "phonetic": "/kʊk/",
+    "example_en": "My dad cooks dinner on Sundays.",
+    "example_target": "cooks",
+    "example_ko": "아빠는 일요일마다 저녁을 요리하신다.",
+    "confusables": [
+      "cooker"
+    ]
+  },
+  {
+    "word": "dentist",
+    "pos": "n.",
+    "meanings": [
+      "치과 의사"
+    ],
+    "phonetic": "/ˈdentɪst/",
+    "example_en": "I go to the dentist twice a year.",
+    "example_target": "dentist",
+    "example_ko": "나는 일 년에 두 번 치과에 간다.",
+    "confusables": []
+  },
+  {
+    "word": "health",
+    "pos": "n.",
+    "meanings": [
+      "건강"
+    ],
+    "phonetic": "/helθ/",
+    "example_en": "Sleep is important for your health.",
+    "example_target": "health",
+    "example_ko": "잠은 건강에 중요하다.",
+    "confusables": [
+      "healthy"
+    ]
+  },
+  {
+    "word": "exercise",
+    "pos": "n.",
+    "meanings": [
+      "운동"
+    ],
+    "phonetic": "/ˈeksərsaɪz/",
+    "example_en": "Exercise is good for your body.",
+    "example_target": "Exercise",
+    "example_ko": "운동은 몸에 좋다.",
+    "confusables": []
+  },
+  {
+    "word": "medicine",
+    "pos": "n.",
+    "meanings": [
+      "약"
+    ],
+    "phonetic": "/ˈmedɪsn/",
+    "example_en": "Take this medicine after meals.",
+    "example_target": "medicine",
+    "example_ko": "식사 후에 이 약을 먹어라.",
+    "confusables": []
+  },
+  {
+    "word": "fever",
+    "pos": "n.",
+    "meanings": [
+      "열"
+    ],
+    "phonetic": "/ˈfiːvər/",
+    "example_en": "I have a high fever today.",
+    "example_target": "fever",
+    "example_ko": "나는 오늘 열이 많이 난다.",
+    "confusables": []
+  },
+  {
+    "word": "cough",
+    "pos": "n.",
+    "meanings": [
+      "기침"
+    ],
+    "phonetic": "/kɔːf/",
+    "example_en": "He has a bad cough.",
+    "example_target": "cough",
+    "example_ko": "그는 기침이 심하다.",
+    "confusables": []
+  },
+  {
+    "word": "stomach",
+    "pos": "n.",
+    "meanings": [
+      "배",
+      "위"
+    ],
+    "phonetic": "/ˈstʌmək/",
+    "example_en": "My stomach hurts after lunch.",
+    "example_target": "stomach",
+    "example_ko": "점심 후에 배가 아프다.",
+    "confusables": []
+  },
+  {
+    "word": "tooth",
+    "pos": "n.",
+    "meanings": [
+      "이",
+      "치아"
+    ],
+    "phonetic": "/tuːθ/",
+    "example_en": "My little brother lost a tooth.",
+    "example_target": "tooth",
+    "example_ko": "내 남동생이 이가 하나 빠졌다.",
+    "confusables": [
+      "teeth"
+    ]
+  },
+  {
+    "word": "heart",
+    "pos": "n.",
+    "meanings": [
+      "심장",
+      "마음"
+    ],
+    "phonetic": "/hɑːrt/",
+    "example_en": "My heart beats fast when I run.",
+    "example_target": "heart",
+    "example_ko": "달리면 심장이 빨리 뛴다.",
+    "confusables": []
+  },
+  {
+    "word": "body",
+    "pos": "n.",
+    "meanings": [
+      "몸"
+    ],
+    "phonetic": "/ˈbɑːdi/",
+    "example_en": "Wash your body every day.",
+    "example_target": "body",
+    "example_ko": "매일 몸을 씻어라.",
+    "confusables": []
+  },
+  {
+    "word": "voice",
+    "pos": "n.",
+    "meanings": [
+      "목소리"
+    ],
+    "phonetic": "/vɔɪs/",
+    "example_en": "She has a beautiful voice.",
+    "example_target": "voice",
+    "example_ko": "그녀는 목소리가 아름답다.",
+    "confusables": []
+  },
+  {
+    "word": "noise",
+    "pos": "n.",
+    "meanings": [
+      "소음"
+    ],
+    "phonetic": "/nɔɪz/",
+    "example_en": "Please don't make any noise.",
+    "example_target": "noise",
+    "example_ko": "제발 시끄럽게 하지 마.",
+    "confusables": [
+      "nose"
+    ]
+  },
+  {
+    "word": "sound",
+    "pos": "n.",
+    "meanings": [
+      "소리"
+    ],
+    "phonetic": "/saʊnd/",
+    "example_en": "I heard a strange sound outside.",
+    "example_target": "sound",
+    "example_ko": "나는 밖에서 이상한 소리를 들었다.",
+    "confusables": []
+  },
+  {
+    "word": "size",
+    "pos": "n.",
+    "meanings": [
+      "크기",
+      "치수"
+    ],
+    "phonetic": "/saɪz/",
+    "example_en": "What size are your shoes?",
+    "example_target": "size",
+    "example_ko": "네 신발 치수는 몇이니?",
+    "confusables": []
+  },
+  {
+    "word": "color",
+    "pos": "n.",
+    "meanings": [
+      "색깔"
+    ],
+    "phonetic": "/ˈkʌlər/",
+    "example_en": "My favorite color is blue.",
+    "example_target": "color",
+    "example_ko": "내가 가장 좋아하는 색은 파란색이다.",
+    "confusables": []
+  },
+  {
+    "word": "shape",
+    "pos": "n.",
+    "meanings": [
+      "모양"
+    ],
+    "phonetic": "/ʃeɪp/",
+    "example_en": "The cookie is in the shape of a star.",
+    "example_target": "shape",
+    "example_ko": "그 쿠키는 별 모양이다.",
+    "confusables": []
+  },
+  {
+    "word": "circle",
+    "pos": "n.",
+    "meanings": [
+      "원"
+    ],
+    "phonetic": "/ˈsɜːrkl/",
+    "example_en": "Draw a circle on the paper.",
+    "example_target": "circle",
+    "example_ko": "종이에 원을 그려라.",
+    "confusables": []
+  },
+  {
+    "word": "square",
+    "pos": "n.",
+    "meanings": [
+      "정사각형",
+      "광장"
+    ],
+    "phonetic": "/skwer/",
+    "example_en": "A square has four equal sides.",
+    "example_target": "square",
+    "example_ko": "정사각형은 네 변의 길이가 같다.",
+    "confusables": []
+  },
+  {
+    "word": "number",
+    "pos": "n.",
+    "meanings": [
+      "수",
+      "번호"
+    ],
+    "phonetic": "/ˈnʌmbər/",
+    "example_en": "What is your phone number?",
+    "example_target": "number",
+    "example_ko": "네 전화번호가 뭐니?",
+    "confusables": []
+  },
+  {
+    "word": "half",
+    "pos": "n.",
+    "meanings": [
+      "절반"
+    ],
+    "phonetic": "/hæf/",
+    "example_en": "I ate half of the pizza.",
+    "example_target": "half",
+    "example_ko": "나는 피자의 절반을 먹었다.",
+    "confusables": []
+  },
+  {
+    "word": "dozen",
+    "pos": "n.",
+    "meanings": [
+      "12개",
+      "다스"
+    ],
+    "phonetic": "/ˈdʌzn/",
+    "example_en": "Mom bought a dozen eggs.",
+    "example_target": "dozen",
+    "example_ko": "엄마가 달걀 12개를 사셨다.",
+    "confusables": []
+  },
+  {
+    "word": "minute",
+    "pos": "n.",
+    "meanings": [
+      "분",
+      "잠깐"
+    ],
+    "phonetic": "/ˈmɪnɪt/",
+    "example_en": "Please wait a minute.",
+    "example_target": "minute",
+    "example_ko": "잠깐만 기다려 주세요.",
+    "confusables": []
+  },
+  {
+    "word": "hour",
+    "pos": "n.",
+    "meanings": [
+      "시간"
+    ],
+    "phonetic": "/ˈaʊər/",
+    "example_en": "I study English for an hour every day.",
+    "example_target": "hour",
+    "example_ko": "나는 매일 한 시간 동안 영어를 공부한다.",
+    "confusables": [
+      "our"
+    ]
+  },
+  {
+    "word": "moment",
+    "pos": "n.",
+    "meanings": [
+      "순간",
+      "잠깐"
+    ],
+    "phonetic": "/ˈmoʊmənt/",
+    "example_en": "Just a moment, please.",
+    "example_target": "moment",
+    "example_ko": "잠시만 기다려 주세요.",
+    "confusables": []
+  },
+  {
+    "word": "weekend",
+    "pos": "n.",
+    "meanings": [
+      "주말"
+    ],
+    "phonetic": "/ˈwiːkend/",
+    "example_en": "What did you do last weekend?",
+    "example_target": "weekend",
+    "example_ko": "지난 주말에 뭐 했니?",
+    "confusables": [
+      "weekday"
+    ]
+  },
+  {
+    "word": "calendar",
+    "pos": "n.",
+    "meanings": [
+      "달력"
+    ],
+    "phonetic": "/ˈkæləndər/",
+    "example_en": "I marked my birthday on the calendar.",
+    "example_target": "calendar",
+    "example_ko": "나는 달력에 내 생일을 표시했다.",
+    "confusables": []
+  },
+  {
+    "word": "schedule",
+    "pos": "n.",
+    "meanings": [
+      "일정",
+      "시간표"
+    ],
+    "phonetic": "/ˈskedʒuːl/",
+    "example_en": "My schedule is very busy this week.",
+    "example_target": "schedule",
+    "example_ko": "이번 주 내 일정은 매우 바쁘다.",
+    "confusables": []
+  },
+  {
+    "word": "plan",
+    "pos": "n.",
+    "meanings": [
+      "계획"
+    ],
+    "phonetic": "/plæn/",
+    "example_en": "Do you have any plans for the weekend?",
+    "example_target": "plans",
+    "example_ko": "주말에 무슨 계획 있니?",
+    "confusables": [
+      "plane"
+    ]
+  },
+  {
+    "word": "trip",
+    "pos": "n.",
+    "meanings": [
+      "여행"
+    ],
+    "phonetic": "/trɪp/",
+    "example_en": "We took a trip to Jeju Island.",
+    "example_target": "trip",
+    "example_ko": "우리는 제주도로 여행을 갔다.",
+    "confusables": [
+      "travel"
+    ]
+  },
+  {
+    "word": "travel",
+    "pos": "v.",
+    "meanings": [
+      "여행하다"
+    ],
+    "phonetic": "/ˈtrævl/",
+    "example_en": "I want to travel around the world.",
+    "example_target": "travel",
+    "example_ko": "나는 세계를 여행하고 싶다.",
+    "confusables": [
+      "trip"
+    ]
+  },
+  {
+    "word": "visit",
+    "pos": "v.",
+    "meanings": [
+      "방문하다"
+    ],
+    "phonetic": "/ˈvɪzɪt/",
+    "example_en": "I will visit my grandma this Sunday.",
+    "example_target": "visit",
+    "example_ko": "나는 이번 일요일에 할머니 댁을 방문할 것이다.",
+    "confusables": []
+  },
+  {
+    "word": "invite",
+    "pos": "v.",
+    "meanings": [
+      "초대하다"
+    ],
+    "phonetic": "/ɪnˈvaɪt/",
+    "example_en": "I want to invite you to my party.",
+    "example_target": "invite",
+    "example_ko": "너를 내 파티에 초대하고 싶어.",
+    "confusables": []
+  },
+  {
+    "word": "arrive",
+    "pos": "v.",
+    "meanings": [
+      "도착하다"
+    ],
+    "phonetic": "/əˈraɪv/",
+    "example_en": "The bus will arrive soon.",
+    "example_target": "arrive",
+    "example_ko": "버스가 곧 도착할 것이다.",
+    "confusables": [
+      "reach"
+    ]
+  },
+  {
+    "word": "leave",
+    "pos": "v.",
+    "meanings": [
+      "떠나다",
+      "남기다"
+    ],
+    "phonetic": "/liːv/",
+    "example_en": "We leave for school at eight.",
+    "example_target": "leave",
+    "example_ko": "우리는 8시에 학교로 출발한다.",
+    "confusables": [
+      "live"
+    ]
+  },
+  {
+    "word": "enter",
+    "pos": "v.",
+    "meanings": [
+      "들어가다"
+    ],
+    "phonetic": "/ˈentər/",
+    "example_en": "Please knock before you enter the room.",
+    "example_target": "enter",
+    "example_ko": "방에 들어가기 전에 노크해 주세요.",
+    "confusables": []
+  },
+  {
+    "word": "return",
+    "pos": "v.",
+    "meanings": [
+      "돌아오다",
+      "돌려주다"
+    ],
+    "phonetic": "/rɪˈtɜːrn/",
+    "example_en": "Please return the book by Friday.",
+    "example_target": "return",
+    "example_ko": "금요일까지 책을 돌려주세요.",
+    "confusables": []
+  },
+  {
+    "word": "carry",
+    "pos": "v.",
+    "meanings": [
+      "나르다",
+      "들고 다니다"
+    ],
+    "phonetic": "/ˈkæri/",
+    "example_en": "Can you help me carry this box?",
+    "example_target": "carry",
+    "example_ko": "이 상자 나르는 것 좀 도와줄래?",
+    "confusables": []
+  },
+  {
+    "word": "bring",
+    "pos": "v.",
+    "meanings": [
+      "가져오다"
+    ],
+    "phonetic": "/brɪŋ/",
+    "example_en": "Don't forget to bring your lunch.",
+    "example_target": "bring",
+    "example_ko": "점심 가져오는 것 잊지 마.",
+    "confusables": [
+      "take"
+    ]
+  },
+  {
+    "word": "borrow",
+    "pos": "v.",
+    "meanings": [
+      "빌리다"
+    ],
+    "phonetic": "/ˈbɑːroʊ/",
+    "example_en": "Can I borrow your pen?",
+    "example_target": "borrow",
+    "example_ko": "네 펜 좀 빌려도 돼?",
+    "confusables": [
+      "lend"
+    ]
+  },
+  {
+    "word": "lend",
+    "pos": "v.",
+    "meanings": [
+      "빌려주다"
+    ],
+    "phonetic": "/lend/",
+    "example_en": "Can you lend me your umbrella?",
+    "example_target": "lend",
+    "example_ko": "네 우산 좀 빌려줄 수 있니?",
+    "confusables": [
+      "borrow"
+    ]
+  },
+  {
+    "word": "share",
+    "pos": "v.",
+    "meanings": [
+      "나누다",
+      "공유하다"
+    ],
+    "phonetic": "/ʃer/",
+    "example_en": "Let's share this cake together.",
+    "example_target": "share",
+    "example_ko": "이 케이크를 함께 나눠 먹자.",
+    "confusables": []
+  },
+  {
+    "word": "wait",
+    "pos": "v.",
+    "meanings": [
+      "기다리다"
+    ],
+    "phonetic": "/weɪt/",
+    "example_en": "Please wait for me here.",
+    "example_target": "wait",
+    "example_ko": "여기서 나를 기다려 줘.",
+    "confusables": [
+      "weight"
+    ]
+  },
+  {
+    "word": "hurry",
+    "pos": "v.",
+    "meanings": [
+      "서두르다"
+    ],
+    "phonetic": "/ˈhɜːri/",
+    "example_en": "Hurry up, or you will be late.",
+    "example_target": "Hurry",
+    "example_ko": "서둘러, 그렇지 않으면 늦을 거야.",
+    "confusables": []
+  },
+  {
+    "word": "practice",
+    "pos": "v.",
+    "meanings": [
+      "연습하다"
+    ],
+    "phonetic": "/ˈpræktɪs/",
+    "example_en": "I practice the piano every day.",
+    "example_target": "practice",
+    "example_ko": "나는 매일 피아노를 연습한다.",
+    "confusables": []
+  },
+  {
+    "word": "finish",
+    "pos": "v.",
+    "meanings": [
+      "끝내다"
+    ],
+    "phonetic": "/ˈfɪnɪʃ/",
+    "example_en": "Did you finish your homework?",
+    "example_target": "finish",
+    "example_ko": "숙제 다 끝냈니?",
+    "confusables": []
+  },
+  {
+    "word": "start",
+    "pos": "v.",
+    "meanings": [
+      "시작하다"
+    ],
+    "phonetic": "/stɑːrt/",
+    "example_en": "The class will start at nine.",
+    "example_target": "start",
+    "example_ko": "수업은 9시에 시작할 것이다.",
+    "confusables": []
+  },
+  {
+    "word": "stop",
+    "pos": "v.",
+    "meanings": [
+      "멈추다",
+      "그만두다"
+    ],
+    "phonetic": "/stɑːp/",
+    "example_en": "Please stop talking in class.",
+    "example_target": "stop",
+    "example_ko": "수업 중에 떠드는 것을 멈춰 주세요.",
+    "confusables": []
+  },
+  {
+    "word": "turn",
+    "pos": "v.",
+    "meanings": [
+      "돌다",
+      "돌리다"
+    ],
+    "phonetic": "/tɜːrn/",
+    "example_en": "Turn left at the corner.",
+    "example_target": "Turn",
+    "example_ko": "모퉁이에서 왼쪽으로 도세요.",
+    "confusables": []
+  },
+  {
+    "word": "move",
+    "pos": "v.",
+    "meanings": [
+      "움직이다",
+      "이사하다"
+    ],
+    "phonetic": "/muːv/",
+    "example_en": "My family will move to Busan next month.",
+    "example_target": "move",
+    "example_ko": "우리 가족은 다음 달에 부산으로 이사할 것이다.",
+    "confusables": []
+  },
+  {
+    "word": "climb",
+    "pos": "v.",
+    "meanings": [
+      "오르다"
+    ],
+    "phonetic": "/klaɪm/",
+    "example_en": "We climbed the mountain last Saturday.",
+    "example_target": "climbed",
+    "example_ko": "우리는 지난 토요일에 산에 올랐다.",
+    "confusables": []
+  },
+  {
+    "word": "jump",
+    "pos": "v.",
+    "meanings": [
+      "뛰어오르다",
+      "점프하다"
+    ],
+    "phonetic": "/dʒʌmp/",
+    "example_en": "The cat can jump very high.",
+    "example_target": "jump",
+    "example_ko": "그 고양이는 아주 높이 뛸 수 있다.",
+    "confusables": []
+  },
+  {
+    "word": "swim",
+    "pos": "v.",
+    "meanings": [
+      "수영하다"
+    ],
+    "phonetic": "/swɪm/",
+    "example_en": "I can swim in the sea.",
+    "example_target": "swim",
+    "example_ko": "나는 바다에서 수영할 수 있다.",
+    "confusables": []
+  },
+  {
+    "word": "dance",
+    "pos": "v.",
+    "meanings": [
+      "춤추다"
+    ],
+    "phonetic": "/dæns/",
+    "example_en": "She likes to dance to K-pop.",
+    "example_target": "dance",
+    "example_ko": "그녀는 케이팝에 맞춰 춤추는 것을 좋아한다.",
+    "confusables": []
+  },
+  {
+    "word": "draw",
+    "pos": "v.",
+    "meanings": [
+      "그리다"
+    ],
+    "phonetic": "/drɔː/",
+    "example_en": "Can you draw a cat?",
+    "example_target": "draw",
+    "example_ko": "고양이를 그릴 수 있니?",
+    "confusables": [
+      "paint"
+    ]
+  },
+  {
+    "word": "paint",
+    "pos": "v.",
+    "meanings": [
+      "칠하다",
+      "그리다"
+    ],
+    "phonetic": "/peɪnt/",
+    "example_en": "We painted the wall white.",
+    "example_target": "painted",
+    "example_ko": "우리는 벽을 하얀색으로 칠했다.",
+    "confusables": [
+      "draw"
+    ]
+  },
+  {
+    "word": "build",
+    "pos": "v.",
+    "meanings": [
+      "짓다",
+      "만들다"
+    ],
+    "phonetic": "/bɪld/",
+    "example_en": "They will build a new library here.",
+    "example_target": "build",
+    "example_ko": "그들은 여기에 새 도서관을 지을 것이다.",
+    "confusables": []
+  },
+  {
+    "word": "catch",
+    "pos": "v.",
+    "meanings": [
+      "잡다"
+    ],
+    "phonetic": "/kætʃ/",
+    "example_en": "Try to catch the ball!",
+    "example_target": "catch",
+    "example_ko": "공을 잡아 봐!",
+    "confusables": []
+  },
+  {
+    "word": "throw",
+    "pos": "v.",
+    "meanings": [
+      "던지다"
+    ],
+    "phonetic": "/θroʊ/",
+    "example_en": "Don't throw trash on the street.",
+    "example_target": "throw",
+    "example_ko": "길에 쓰레기를 던지지 마.",
+    "confusables": []
+  },
+  {
+    "word": "kick",
+    "pos": "v.",
+    "meanings": [
+      "차다"
+    ],
+    "phonetic": "/kɪk/",
+    "example_en": "He kicked the ball into the goal.",
+    "example_target": "kicked",
+    "example_ko": "그는 공을 차서 골대에 넣었다.",
+    "confusables": []
+  },
+  {
+    "word": "laugh",
+    "pos": "v.",
+    "meanings": [
+      "웃다"
+    ],
+    "phonetic": "/læf/",
+    "example_en": "Her jokes always make me laugh.",
+    "example_target": "laugh",
+    "example_ko": "그녀의 농담은 항상 나를 웃게 한다.",
+    "confusables": [
+      "smile"
+    ]
+  },
+  {
+    "word": "smile",
+    "pos": "v.",
+    "meanings": [
+      "미소 짓다"
+    ],
+    "phonetic": "/smaɪl/",
+    "example_en": "She smiled at me.",
+    "example_target": "smiled",
+    "example_ko": "그녀는 나에게 미소 지었다.",
+    "confusables": [
+      "laugh"
+    ]
+  },
+  {
+    "word": "cry",
+    "pos": "v.",
+    "meanings": [
+      "울다"
+    ],
+    "phonetic": "/kraɪ/",
+    "example_en": "The baby started to cry.",
+    "example_target": "cry",
+    "example_ko": "아기가 울기 시작했다.",
+    "confusables": [
+      "shout"
+    ]
+  },
+  {
+    "word": "shout",
+    "pos": "v.",
+    "meanings": [
+      "외치다",
+      "소리치다"
+    ],
+    "phonetic": "/ʃaʊt/",
+    "example_en": "Don't shout in the library.",
+    "example_target": "shout",
+    "example_ko": "도서관에서 소리치지 마.",
+    "confusables": [
+      "cry"
+    ]
+  }
+]

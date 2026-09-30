@@ -1,0 +1,1339 @@
+[
+  {
+    "word": "attitude",
+    "pos": "n.",
+    "meanings": [
+      "태도",
+      "자세"
+    ],
+    "phonetic": "/ˈætɪtuːd/",
+    "example_en": "She has a positive attitude about school.",
+    "example_target": "attitude",
+    "example_ko": "그녀는 학교에 대해 긍정적인 태도를 가지고 있다.",
+    "confusables": [
+      "altitude",
+      "aptitude"
+    ]
+  },
+  {
+    "word": "behavior",
+    "pos": "n.",
+    "meanings": [
+      "행동",
+      "태도"
+    ],
+    "phonetic": "/bɪˈheɪvjər/",
+    "example_en": "His behavior in class was very good today.",
+    "example_target": "behavior",
+    "example_ko": "오늘 수업 시간에 그의 행동은 아주 좋았다.",
+    "confusables": [
+      "behave"
+    ]
+  },
+  {
+    "word": "character",
+    "pos": "n.",
+    "meanings": [
+      "성격",
+      "등장인물"
+    ],
+    "phonetic": "/ˈkærəktər/",
+    "example_en": "Who is your favorite character in the movie?",
+    "example_target": "character",
+    "example_ko": "그 영화에서 네가 가장 좋아하는 등장인물은 누구니?",
+    "confusables": [
+      "characteristic"
+    ]
+  },
+  {
+    "word": "confidence",
+    "pos": "n.",
+    "meanings": [
+      "자신감",
+      "신뢰"
+    ],
+    "phonetic": "/ˈkɑːnfɪdəns/",
+    "example_en": "She spoke with confidence in front of the class.",
+    "example_target": "confidence",
+    "example_ko": "그녀는 반 친구들 앞에서 자신감 있게 말했다.",
+    "confusables": [
+      "confident",
+      "conference"
+    ]
+  },
+  {
+    "word": "courage",
+    "pos": "n.",
+    "meanings": [
+      "용기"
+    ],
+    "phonetic": "/ˈkɜːrɪdʒ/",
+    "example_en": "It takes courage to say sorry first.",
+    "example_target": "courage",
+    "example_ko": "먼저 미안하다고 말하는 데는 용기가 필요하다.",
+    "confusables": [
+      "encourage"
+    ]
+  },
+  {
+    "word": "curiosity",
+    "pos": "n.",
+    "meanings": [
+      "호기심"
+    ],
+    "phonetic": "/ˌkjʊriˈɑːsəti/",
+    "example_en": "The boy opened the box out of curiosity.",
+    "example_target": "curiosity",
+    "example_ko": "그 소년은 호기심에 상자를 열었다.",
+    "confusables": [
+      "curious"
+    ]
+  },
+  {
+    "word": "patience",
+    "pos": "n.",
+    "meanings": [
+      "인내심",
+      "참을성"
+    ],
+    "phonetic": "/ˈpeɪʃəns/",
+    "example_en": "Learning a new language needs a lot of patience.",
+    "example_target": "patience",
+    "example_ko": "새로운 언어를 배우는 데는 많은 인내심이 필요하다.",
+    "confusables": [
+      "patients",
+      "patient"
+    ]
+  },
+  {
+    "word": "respect",
+    "pos": "n.",
+    "meanings": [
+      "존경",
+      "존중"
+    ],
+    "phonetic": "/rɪˈspekt/",
+    "example_en": "We should show respect to our teachers.",
+    "example_target": "respect",
+    "example_ko": "우리는 선생님께 존경을 표해야 한다.",
+    "confusables": [
+      "expect",
+      "inspect"
+    ]
+  },
+  {
+    "word": "responsibility",
+    "pos": "n.",
+    "meanings": [
+      "책임",
+      "책임감"
+    ],
+    "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+    "example_en": "Taking care of a pet is a big responsibility.",
+    "example_target": "responsibility",
+    "example_ko": "애완동물을 돌보는 것은 큰 책임이다.",
+    "confusables": [
+      "responsible"
+    ]
+  },
+  {
+    "word": "honesty",
+    "pos": "n.",
+    "meanings": [
+      "정직",
+      "솔직함"
+    ],
+    "phonetic": "/ˈɑːnəsti/",
+    "example_en": "Honesty is the most important thing in friendship.",
+    "example_target": "Honesty",
+    "example_ko": "정직은 우정에서 가장 중요한 것이다.",
+    "confusables": [
+      "honest"
+    ]
+  },
+  {
+    "word": "kindness",
+    "pos": "n.",
+    "meanings": [
+      "친절",
+      "다정함"
+    ],
+    "phonetic": "/ˈkaɪndnəs/",
+    "example_en": "Thank you for your kindness.",
+    "example_target": "kindness",
+    "example_ko": "당신의 친절에 감사드립니다.",
+    "confusables": [
+      "kind"
+    ]
+  },
+  {
+    "word": "friendship",
+    "pos": "n.",
+    "meanings": [
+      "우정"
+    ],
+    "phonetic": "/ˈfrendʃɪp/",
+    "example_en": "Their friendship lasted for many years.",
+    "example_target": "friendship",
+    "example_ko": "그들의 우정은 여러 해 동안 계속되었다.",
+    "confusables": [
+      "relationship"
+    ]
+  },
+  {
+    "word": "relationship",
+    "pos": "n.",
+    "meanings": [
+      "관계"
+    ],
+    "phonetic": "/rɪˈleɪʃənʃɪp/",
+    "example_en": "I have a good relationship with my sister.",
+    "example_target": "relationship",
+    "example_ko": "나는 언니와 좋은 관계를 유지하고 있다.",
+    "confusables": [
+      "relation",
+      "friendship"
+    ]
+  },
+  {
+    "word": "generation",
+    "pos": "n.",
+    "meanings": [
+      "세대"
+    ],
+    "phonetic": "/ˌdʒenəˈreɪʃən/",
+    "example_en": "The young generation uses smartphones every day.",
+    "example_target": "generation",
+    "example_ko": "젊은 세대는 매일 스마트폰을 사용한다.",
+    "confusables": [
+      "general"
+    ]
+  },
+  {
+    "word": "population",
+    "pos": "n.",
+    "meanings": [
+      "인구"
+    ],
+    "phonetic": "/ˌpɑːpjəˈleɪʃən/",
+    "example_en": "The population of Seoul is very large.",
+    "example_target": "population",
+    "example_ko": "서울의 인구는 매우 많다.",
+    "confusables": [
+      "popular",
+      "pollution"
+    ]
+  },
+  {
+    "word": "society",
+    "pos": "n.",
+    "meanings": [
+      "사회"
+    ],
+    "phonetic": "/səˈsaɪəti/",
+    "example_en": "Everyone has a role in our society.",
+    "example_target": "society",
+    "example_ko": "모든 사람은 우리 사회에서 역할을 가지고 있다.",
+    "confusables": [
+      "social"
+    ]
+  },
+  {
+    "word": "government",
+    "pos": "n.",
+    "meanings": [
+      "정부"
+    ],
+    "phonetic": "/ˈɡʌvərnmənt/",
+    "example_en": "The government built a new library in our town.",
+    "example_target": "government",
+    "example_ko": "정부는 우리 마을에 새 도서관을 지었다.",
+    "confusables": [
+      "govern"
+    ]
+  },
+  {
+    "word": "citizen",
+    "pos": "n.",
+    "meanings": [
+      "시민",
+      "국민"
+    ],
+    "phonetic": "/ˈsɪtɪzən/",
+    "example_en": "Every citizen has the right to vote.",
+    "example_target": "citizen",
+    "example_ko": "모든 시민은 투표할 권리가 있다.",
+    "confusables": [
+      "city"
+    ]
+  },
+  {
+    "word": "nation",
+    "pos": "n.",
+    "meanings": [
+      "국가",
+      "나라"
+    ],
+    "phonetic": "/ˈneɪʃən/",
+    "example_en": "Korea is a small but strong nation.",
+    "example_target": "nation",
+    "example_ko": "한국은 작지만 강한 나라이다.",
+    "confusables": [
+      "national",
+      "notion"
+    ]
+  },
+  {
+    "word": "president",
+    "pos": "n.",
+    "meanings": [
+      "대통령",
+      "회장"
+    ],
+    "phonetic": "/ˈprezɪdənt/",
+    "example_en": "She was chosen as the class president.",
+    "example_target": "president",
+    "example_ko": "그녀는 반장으로 뽑혔다.",
+    "confusables": [
+      "present",
+      "resident"
+    ]
+  },
+  {
+    "word": "vote",
+    "pos": "v.",
+    "meanings": [
+      "투표하다"
+    ],
+    "phonetic": "/voʊt/",
+    "example_en": "We will vote for a new class leader tomorrow.",
+    "example_target": "vote",
+    "example_ko": "우리는 내일 새 반장을 뽑기 위해 투표할 것이다.",
+    "confusables": [
+      "note"
+    ]
+  },
+  {
+    "word": "election",
+    "pos": "n.",
+    "meanings": [
+      "선거"
+    ],
+    "phonetic": "/ɪˈlekʃən/",
+    "example_en": "The school election is next Monday.",
+    "example_target": "election",
+    "example_ko": "학교 선거는 다음 주 월요일이다.",
+    "confusables": [
+      "selection",
+      "elect"
+    ]
+  },
+  {
+    "word": "freedom",
+    "pos": "n.",
+    "meanings": [
+      "자유"
+    ],
+    "phonetic": "/ˈfriːdəm/",
+    "example_en": "People fought for freedom a long time ago.",
+    "example_target": "freedom",
+    "example_ko": "오래전에 사람들은 자유를 위해 싸웠다.",
+    "confusables": [
+      "free"
+    ]
+  },
+  {
+    "word": "peace",
+    "pos": "n.",
+    "meanings": [
+      "평화"
+    ],
+    "phonetic": "/piːs/",
+    "example_en": "We all hope for world peace.",
+    "example_target": "peace",
+    "example_ko": "우리 모두는 세계 평화를 바란다.",
+    "confusables": [
+      "piece"
+    ]
+  },
+  {
+    "word": "war",
+    "pos": "n.",
+    "meanings": [
+      "전쟁"
+    ],
+    "phonetic": "/wɔːr/",
+    "example_en": "Many people lost their homes during the war.",
+    "example_target": "war",
+    "example_ko": "전쟁 동안 많은 사람들이 집을 잃었다.",
+    "confusables": [
+      "wear"
+    ]
+  },
+  {
+    "word": "army",
+    "pos": "n.",
+    "meanings": [
+      "군대",
+      "육군"
+    ],
+    "phonetic": "/ˈɑːrmi/",
+    "example_en": "My brother joined the army last year.",
+    "example_target": "army",
+    "example_ko": "우리 형은 작년에 군대에 입대했다.",
+    "confusables": [
+      "arm"
+    ]
+  },
+  {
+    "word": "soldier",
+    "pos": "n.",
+    "meanings": [
+      "군인",
+      "병사"
+    ],
+    "phonetic": "/ˈsoʊldʒər/",
+    "example_en": "The soldier protected the town from danger.",
+    "example_target": "soldier",
+    "example_ko": "그 군인은 위험으로부터 마을을 지켰다.",
+    "confusables": [
+      "solder"
+    ]
+  },
+  {
+    "word": "enemy",
+    "pos": "n.",
+    "meanings": [
+      "적"
+    ],
+    "phonetic": "/ˈenəmi/",
+    "example_en": "The two countries were enemies in the past.",
+    "example_target": "enemies",
+    "example_ko": "두 나라는 과거에 적이었다.",
+    "confusables": [
+      "energy"
+    ]
+  },
+  {
+    "word": "victory",
+    "pos": "n.",
+    "meanings": [
+      "승리"
+    ],
+    "phonetic": "/ˈvɪktəri/",
+    "example_en": "Our team celebrated the victory together.",
+    "example_target": "victory",
+    "example_ko": "우리 팀은 함께 승리를 축하했다.",
+    "confusables": [
+      "history"
+    ]
+  },
+  {
+    "word": "crowd",
+    "pos": "n.",
+    "meanings": [
+      "군중",
+      "사람들"
+    ],
+    "phonetic": "/kraʊd/",
+    "example_en": "A large crowd gathered to watch the concert.",
+    "example_target": "crowd",
+    "example_ko": "많은 군중이 콘서트를 보기 위해 모였다.",
+    "confusables": [
+      "cloud",
+      "crow"
+    ]
+  },
+  {
+    "word": "stranger",
+    "pos": "n.",
+    "meanings": [
+      "낯선 사람"
+    ],
+    "phonetic": "/ˈstreɪndʒər/",
+    "example_en": "Don't talk to strangers on the street.",
+    "example_target": "strangers",
+    "example_ko": "길에서 낯선 사람과 이야기하지 마라.",
+    "confusables": [
+      "strange"
+    ]
+  },
+  {
+    "word": "guest",
+    "pos": "n.",
+    "meanings": [
+      "손님"
+    ],
+    "phonetic": "/ɡest/",
+    "example_en": "We invited ten guests to the party.",
+    "example_target": "guests",
+    "example_ko": "우리는 파티에 손님 열 명을 초대했다.",
+    "confusables": [
+      "guess"
+    ]
+  },
+  {
+    "word": "host",
+    "pos": "n.",
+    "meanings": [
+      "주인",
+      "진행자"
+    ],
+    "phonetic": "/hoʊst/",
+    "example_en": "The host welcomed everyone at the door.",
+    "example_target": "host",
+    "example_ko": "주인은 문 앞에서 모두를 맞이했다.",
+    "confusables": [
+      "ghost",
+      "guest"
+    ]
+  },
+  {
+    "word": "owner",
+    "pos": "n.",
+    "meanings": [
+      "주인",
+      "소유자"
+    ],
+    "phonetic": "/ˈoʊnər/",
+    "example_en": "Who is the owner of this bike?",
+    "example_target": "owner",
+    "example_ko": "이 자전거의 주인은 누구니?",
+    "confusables": [
+      "own"
+    ]
+  },
+  {
+    "word": "passenger",
+    "pos": "n.",
+    "meanings": [
+      "승객"
+    ],
+    "phonetic": "/ˈpæsɪndʒər/",
+    "example_en": "All passengers must wear a seat belt.",
+    "example_target": "passengers",
+    "example_ko": "모든 승객은 안전벨트를 매야 한다.",
+    "confusables": [
+      "messenger"
+    ]
+  },
+  {
+    "word": "tourist",
+    "pos": "n.",
+    "meanings": [
+      "관광객"
+    ],
+    "phonetic": "/ˈtʊrɪst/",
+    "example_en": "Many tourists visit Jeju Island every year.",
+    "example_target": "tourists",
+    "example_ko": "매년 많은 관광객이 제주도를 방문한다.",
+    "confusables": [
+      "tour",
+      "tourism"
+    ]
+  },
+  {
+    "word": "local",
+    "pos": "adj.",
+    "meanings": [
+      "지역의",
+      "현지의"
+    ],
+    "phonetic": "/ˈloʊkəl/",
+    "example_en": "We bought fresh fruit at the local market.",
+    "example_target": "local",
+    "example_ko": "우리는 지역 시장에서 신선한 과일을 샀다.",
+    "confusables": [
+      "locate"
+    ]
+  },
+  {
+    "word": "foreign",
+    "pos": "adj.",
+    "meanings": [
+      "외국의"
+    ],
+    "phonetic": "/ˈfɔːrən/",
+    "example_en": "Can you speak any foreign languages?",
+    "example_target": "foreign",
+    "example_ko": "너는 외국어를 할 수 있니?",
+    "confusables": [
+      "foreigner"
+    ]
+  },
+  {
+    "word": "international",
+    "pos": "adj.",
+    "meanings": [
+      "국제적인",
+      "국제의"
+    ],
+    "phonetic": "/ˌɪntərˈnæʃənəl/",
+    "example_en": "Incheon has a big international airport.",
+    "example_target": "international",
+    "example_ko": "인천에는 큰 국제공항이 있다.",
+    "confusables": [
+      "national"
+    ]
+  },
+  {
+    "word": "global",
+    "pos": "adj.",
+    "meanings": [
+      "세계적인",
+      "지구의"
+    ],
+    "phonetic": "/ˈɡloʊbəl/",
+    "example_en": "Global warming is a serious problem.",
+    "example_target": "Global",
+    "example_ko": "지구 온난화는 심각한 문제이다.",
+    "confusables": [
+      "globe"
+    ]
+  },
+  {
+    "word": "native",
+    "pos": "adj.",
+    "meanings": [
+      "모국의",
+      "토박이의"
+    ],
+    "phonetic": "/ˈneɪtɪv/",
+    "example_en": "Her native language is Spanish.",
+    "example_target": "native",
+    "example_ko": "그녀의 모국어는 스페인어이다.",
+    "confusables": [
+      "nation",
+      "natural"
+    ]
+  },
+  {
+    "word": "public",
+    "pos": "adj.",
+    "meanings": [
+      "공공의",
+      "대중의"
+    ],
+    "phonetic": "/ˈpʌblɪk/",
+    "example_en": "Please be quiet in public places.",
+    "example_target": "public",
+    "example_ko": "공공장소에서는 조용히 해 주세요.",
+    "confusables": [
+      "publish"
+    ]
+  },
+  {
+    "word": "private",
+    "pos": "adj.",
+    "meanings": [
+      "사적인",
+      "개인의"
+    ],
+    "phonetic": "/ˈpraɪvɪt/",
+    "example_en": "This is a private room, so please knock first.",
+    "example_target": "private",
+    "example_ko": "여기는 개인 방이니 먼저 노크해 주세요.",
+    "confusables": [
+      "pirate",
+      "privacy"
+    ]
+  },
+  {
+    "word": "personal",
+    "pos": "adj.",
+    "meanings": [
+      "개인적인",
+      "개인의"
+    ],
+    "phonetic": "/ˈpɜːrsənəl/",
+    "example_en": "Don't share your personal information online.",
+    "example_target": "personal",
+    "example_ko": "온라인에서 개인 정보를 공유하지 마라.",
+    "confusables": [
+      "personnel"
+    ]
+  },
+  {
+    "word": "social",
+    "pos": "adj.",
+    "meanings": [
+      "사회의",
+      "사교적인"
+    ],
+    "phonetic": "/ˈsoʊʃəl/",
+    "example_en": "Social media is popular among teenagers.",
+    "example_target": "Social",
+    "example_ko": "소셜 미디어는 십 대들 사이에서 인기가 있다.",
+    "confusables": [
+      "society"
+    ]
+  },
+  {
+    "word": "natural",
+    "pos": "adj.",
+    "meanings": [
+      "자연의",
+      "자연스러운"
+    ],
+    "phonetic": "/ˈnætʃərəl/",
+    "example_en": "We should protect our natural resources.",
+    "example_target": "natural",
+    "example_ko": "우리는 천연자원을 보호해야 한다.",
+    "confusables": [
+      "nature",
+      "national"
+    ]
+  },
+  {
+    "word": "national",
+    "pos": "adj.",
+    "meanings": [
+      "국가의",
+      "국립의"
+    ],
+    "phonetic": "/ˈnæʃənəl/",
+    "example_en": "We visited the national museum last weekend.",
+    "example_target": "national",
+    "example_ko": "우리는 지난 주말에 국립 박물관을 방문했다.",
+    "confusables": [
+      "natural",
+      "international"
+    ]
+  },
+  {
+    "word": "special",
+    "pos": "adj.",
+    "meanings": [
+      "특별한"
+    ],
+    "phonetic": "/ˈspeʃəl/",
+    "example_en": "Today is a special day for my family.",
+    "example_target": "special",
+    "example_ko": "오늘은 우리 가족에게 특별한 날이다.",
+    "confusables": [
+      "especially"
+    ]
+  },
+  {
+    "word": "general",
+    "pos": "adj.",
+    "meanings": [
+      "일반적인",
+      "전반적인"
+    ],
+    "phonetic": "/ˈdʒenərəl/",
+    "example_en": "This book is for the general reader.",
+    "example_target": "general",
+    "example_ko": "이 책은 일반 독자를 위한 것이다.",
+    "confusables": [
+      "generous"
+    ]
+  },
+  {
+    "word": "common",
+    "pos": "adj.",
+    "meanings": [
+      "흔한",
+      "공통의"
+    ],
+    "phonetic": "/ˈkɑːmən/",
+    "example_en": "Kim is a very common name in Korea.",
+    "example_target": "common",
+    "example_ko": "김은 한국에서 매우 흔한 성이다.",
+    "confusables": [
+      "comment"
+    ]
+  },
+  {
+    "word": "similar",
+    "pos": "adj.",
+    "meanings": [
+      "비슷한",
+      "유사한"
+    ],
+    "phonetic": "/ˈsɪmələr/",
+    "example_en": "My bag is similar to yours.",
+    "example_target": "similar",
+    "example_ko": "내 가방은 네 것과 비슷하다.",
+    "confusables": [
+      "same"
+    ]
+  },
+  {
+    "word": "different",
+    "pos": "adj.",
+    "meanings": [
+      "다른"
+    ],
+    "phonetic": "/ˈdɪfərənt/",
+    "example_en": "My sister and I have different hobbies.",
+    "example_target": "different",
+    "example_ko": "언니와 나는 취미가 다르다.",
+    "confusables": [
+      "difficult"
+    ]
+  },
+  {
+    "word": "familiar",
+    "pos": "adj.",
+    "meanings": [
+      "친숙한",
+      "익숙한"
+    ],
+    "phonetic": "/fəˈmɪljər/",
+    "example_en": "This song sounds familiar to me.",
+    "example_target": "familiar",
+    "example_ko": "이 노래는 나에게 익숙하게 들린다.",
+    "confusables": [
+      "family",
+      "similar"
+    ]
+  },
+  {
+    "word": "strange",
+    "pos": "adj.",
+    "meanings": [
+      "이상한",
+      "낯선"
+    ],
+    "phonetic": "/streɪndʒ/",
+    "example_en": "I heard a strange noise last night.",
+    "example_target": "strange",
+    "example_ko": "나는 어젯밤에 이상한 소리를 들었다.",
+    "confusables": [
+      "stranger"
+    ]
+  },
+  {
+    "word": "serious",
+    "pos": "adj.",
+    "meanings": [
+      "심각한",
+      "진지한"
+    ],
+    "phonetic": "/ˈsɪriəs/",
+    "example_en": "Air pollution is a serious problem.",
+    "example_target": "serious",
+    "example_ko": "대기 오염은 심각한 문제이다.",
+    "confusables": [
+      "series",
+      "curious"
+    ]
+  },
+  {
+    "word": "curious",
+    "pos": "adj.",
+    "meanings": [
+      "호기심이 많은",
+      "궁금한"
+    ],
+    "phonetic": "/ˈkjʊriəs/",
+    "example_en": "Little children are curious about everything.",
+    "example_target": "curious",
+    "example_ko": "어린아이들은 모든 것에 호기심이 많다.",
+    "confusables": [
+      "serious",
+      "curiosity"
+    ]
+  },
+  {
+    "word": "careful",
+    "pos": "adj.",
+    "meanings": [
+      "조심하는",
+      "신중한"
+    ],
+    "phonetic": "/ˈkerfəl/",
+    "example_en": "Be careful when you cross the street.",
+    "example_target": "careful",
+    "example_ko": "길을 건널 때 조심해라.",
+    "confusables": [
+      "careless"
+    ]
+  },
+  {
+    "word": "careless",
+    "pos": "adj.",
+    "meanings": [
+      "부주의한"
+    ],
+    "phonetic": "/ˈkerləs/",
+    "example_en": "I made a careless mistake on the test.",
+    "example_target": "careless",
+    "example_ko": "나는 시험에서 부주의한 실수를 했다.",
+    "confusables": [
+      "careful"
+    ]
+  },
+  {
+    "word": "honest",
+    "pos": "adj.",
+    "meanings": [
+      "정직한",
+      "솔직한"
+    ],
+    "phonetic": "/ˈɑːnɪst/",
+    "example_en": "Please be honest with me.",
+    "example_target": "honest",
+    "example_ko": "나에게 솔직하게 말해 줘.",
+    "confusables": [
+      "honesty"
+    ]
+  },
+  {
+    "word": "polite",
+    "pos": "adj.",
+    "meanings": [
+      "예의 바른",
+      "공손한"
+    ],
+    "phonetic": "/pəˈlaɪt/",
+    "example_en": "It is polite to say thank you.",
+    "example_target": "polite",
+    "example_ko": "고맙다고 말하는 것은 예의 바른 일이다.",
+    "confusables": [
+      "police",
+      "rude"
+    ]
+  },
+  {
+    "word": "rude",
+    "pos": "adj.",
+    "meanings": [
+      "무례한"
+    ],
+    "phonetic": "/ruːd/",
+    "example_en": "It is rude to talk with your mouth full.",
+    "example_target": "rude",
+    "example_ko": "입에 음식을 가득 넣은 채 말하는 것은 무례하다.",
+    "confusables": [
+      "road",
+      "polite"
+    ]
+  },
+  {
+    "word": "proud",
+    "pos": "adj.",
+    "meanings": [
+      "자랑스러운",
+      "자부심이 있는"
+    ],
+    "phonetic": "/praʊd/",
+    "example_en": "My parents are proud of me.",
+    "example_target": "proud",
+    "example_ko": "부모님은 나를 자랑스러워하신다.",
+    "confusables": [
+      "pride",
+      "loud"
+    ]
+  },
+  {
+    "word": "shy",
+    "pos": "adj.",
+    "meanings": [
+      "수줍은",
+      "부끄러워하는"
+    ],
+    "phonetic": "/ʃaɪ/",
+    "example_en": "He is too shy to speak in class.",
+    "example_target": "shy",
+    "example_ko": "그는 너무 수줍어서 수업 시간에 말을 못 한다.",
+    "confusables": [
+      "sky"
+    ]
+  },
+  {
+    "word": "nervous",
+    "pos": "adj.",
+    "meanings": [
+      "긴장한",
+      "불안한"
+    ],
+    "phonetic": "/ˈnɜːrvəs/",
+    "example_en": "I was nervous before the speech contest.",
+    "example_target": "nervous",
+    "example_ko": "나는 말하기 대회 전에 긴장했다.",
+    "confusables": [
+      "anxious"
+    ]
+  },
+  {
+    "word": "excited",
+    "pos": "adj.",
+    "meanings": [
+      "신이 난",
+      "흥분한"
+    ],
+    "phonetic": "/ɪkˈsaɪtɪd/",
+    "example_en": "The kids were excited about the field trip.",
+    "example_target": "excited",
+    "example_ko": "아이들은 현장 학습에 신이 났다.",
+    "confusables": [
+      "exciting"
+    ]
+  },
+  {
+    "word": "bored",
+    "pos": "adj.",
+    "meanings": [
+      "지루해하는",
+      "따분한"
+    ],
+    "phonetic": "/bɔːrd/",
+    "example_en": "I was bored because it rained all day.",
+    "example_target": "bored",
+    "example_ko": "하루 종일 비가 와서 나는 지루했다.",
+    "confusables": [
+      "boring",
+      "board"
+    ]
+  },
+  {
+    "word": "surprised",
+    "pos": "adj.",
+    "meanings": [
+      "놀란"
+    ],
+    "phonetic": "/sərˈpraɪzd/",
+    "example_en": "She was surprised to see her old friend.",
+    "example_target": "surprised",
+    "example_ko": "그녀는 옛 친구를 보고 놀랐다.",
+    "confusables": [
+      "surprising"
+    ]
+  },
+  {
+    "word": "disappointed",
+    "pos": "adj.",
+    "meanings": [
+      "실망한"
+    ],
+    "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+    "example_en": "I was disappointed with my test score.",
+    "example_target": "disappointed",
+    "example_ko": "나는 내 시험 점수에 실망했다.",
+    "confusables": [
+      "disappointing"
+    ]
+  },
+  {
+    "word": "embarrassed",
+    "pos": "adj.",
+    "meanings": [
+      "당황한",
+      "창피한"
+    ],
+    "phonetic": "/ɪmˈbærəst/",
+    "example_en": "I felt embarrassed when I fell on the stage.",
+    "example_target": "embarrassed",
+    "example_ko": "나는 무대에서 넘어졌을 때 창피했다.",
+    "confusables": [
+      "embarrassing"
+    ]
+  },
+  {
+    "word": "lonely",
+    "pos": "adj.",
+    "meanings": [
+      "외로운"
+    ],
+    "phonetic": "/ˈloʊnli/",
+    "example_en": "He felt lonely after moving to a new city.",
+    "example_target": "lonely",
+    "example_ko": "그는 새 도시로 이사한 후 외로움을 느꼈다.",
+    "confusables": [
+      "alone",
+      "lovely"
+    ]
+  },
+  {
+    "word": "jealous",
+    "pos": "adj.",
+    "meanings": [
+      "질투하는",
+      "시기하는"
+    ],
+    "phonetic": "/ˈdʒeləs/",
+    "example_en": "She was jealous of her sister's new phone.",
+    "example_target": "jealous",
+    "example_ko": "그녀는 언니의 새 휴대폰을 질투했다.",
+    "confusables": [
+      "zealous"
+    ]
+  },
+  {
+    "word": "calm",
+    "pos": "adj.",
+    "meanings": [
+      "침착한",
+      "차분한"
+    ],
+    "phonetic": "/kɑːm/",
+    "example_en": "Stay calm and listen to the teacher.",
+    "example_target": "calm",
+    "example_ko": "침착하게 선생님 말씀을 들어라.",
+    "confusables": [
+      "clam",
+      "palm"
+    ]
+  },
+  {
+    "word": "gentle",
+    "pos": "adj.",
+    "meanings": [
+      "온화한",
+      "부드러운"
+    ],
+    "phonetic": "/ˈdʒentəl/",
+    "example_en": "My grandmother has a gentle voice.",
+    "example_target": "gentle",
+    "example_ko": "우리 할머니는 부드러운 목소리를 가지고 계신다.",
+    "confusables": [
+      "gentleman"
+    ]
+  },
+  {
+    "word": "humble",
+    "pos": "adj.",
+    "meanings": [
+      "겸손한"
+    ],
+    "phonetic": "/ˈhʌmbəl/",
+    "example_en": "He is famous but still very humble.",
+    "example_target": "humble",
+    "example_ko": "그는 유명하지만 여전히 매우 겸손하다.",
+    "confusables": [
+      "humid"
+    ]
+  },
+  {
+    "word": "wise",
+    "pos": "adj.",
+    "meanings": [
+      "현명한",
+      "지혜로운"
+    ],
+    "phonetic": "/waɪz/",
+    "example_en": "My grandfather always gives me wise advice.",
+    "example_target": "wise",
+    "example_ko": "할아버지는 항상 나에게 현명한 조언을 해 주신다.",
+    "confusables": [
+      "wisdom"
+    ]
+  },
+  {
+    "word": "foolish",
+    "pos": "adj.",
+    "meanings": [
+      "어리석은"
+    ],
+    "phonetic": "/ˈfuːlɪʃ/",
+    "example_en": "It was foolish of me to lose my key.",
+    "example_target": "foolish",
+    "example_ko": "열쇠를 잃어버리다니 나는 어리석었다.",
+    "confusables": [
+      "fool"
+    ]
+  },
+  {
+    "word": "lazy",
+    "pos": "adj.",
+    "meanings": [
+      "게으른"
+    ],
+    "phonetic": "/ˈleɪzi/",
+    "example_en": "Don't be lazy and clean your room.",
+    "example_target": "lazy",
+    "example_ko": "게으름 피우지 말고 네 방을 청소해라.",
+    "confusables": [
+      "crazy"
+    ]
+  },
+  {
+    "word": "diligent",
+    "pos": "adj.",
+    "meanings": [
+      "부지런한",
+      "성실한"
+    ],
+    "phonetic": "/ˈdɪlɪdʒənt/",
+    "example_en": "She is a diligent student who studies every day.",
+    "example_target": "diligent",
+    "example_ko": "그녀는 매일 공부하는 부지런한 학생이다.",
+    "confusables": [
+      "intelligent"
+    ]
+  },
+  {
+    "word": "active",
+    "pos": "adj.",
+    "meanings": [
+      "활동적인",
+      "적극적인"
+    ],
+    "phonetic": "/ˈæktɪv/",
+    "example_en": "My dog is very active in the morning.",
+    "example_target": "active",
+    "example_ko": "우리 개는 아침에 매우 활동적이다.",
+    "confusables": [
+      "action"
+    ]
+  },
+  {
+    "word": "creative",
+    "pos": "adj.",
+    "meanings": [
+      "창의적인"
+    ],
+    "phonetic": "/kriˈeɪtɪv/",
+    "example_en": "He has many creative ideas for the project.",
+    "example_target": "creative",
+    "example_ko": "그는 그 프로젝트에 대한 창의적인 아이디어가 많다.",
+    "confusables": [
+      "create"
+    ]
+  },
+  {
+    "word": "positive",
+    "pos": "adj.",
+    "meanings": [
+      "긍정적인"
+    ],
+    "phonetic": "/ˈpɑːzətɪv/",
+    "example_en": "Try to think in a positive way.",
+    "example_target": "positive",
+    "example_ko": "긍정적인 방식으로 생각하려고 노력해라.",
+    "confusables": [
+      "negative"
+    ]
+  },
+  {
+    "word": "negative",
+    "pos": "adj.",
+    "meanings": [
+      "부정적인"
+    ],
+    "phonetic": "/ˈneɡətɪv/",
+    "example_en": "Don't say negative things about your friends.",
+    "example_target": "negative",
+    "example_ko": "친구들에 대해 부정적인 말을 하지 마라.",
+    "confusables": [
+      "positive"
+    ]
+  },
+  {
+    "word": "possible",
+    "pos": "adj.",
+    "meanings": [
+      "가능한"
+    ],
+    "phonetic": "/ˈpɑːsəbəl/",
+    "example_en": "Is it possible to finish this by tomorrow?",
+    "example_target": "possible",
+    "example_ko": "내일까지 이것을 끝내는 것이 가능하니?",
+    "confusables": [
+      "impossible",
+      "possibly"
+    ]
+  },
+  {
+    "word": "impossible",
+    "pos": "adj.",
+    "meanings": [
+      "불가능한"
+    ],
+    "phonetic": "/ɪmˈpɑːsəbəl/",
+    "example_en": "Nothing is impossible if you try hard.",
+    "example_target": "impossible",
+    "example_ko": "열심히 노력하면 불가능한 것은 없다.",
+    "confusables": [
+      "possible"
+    ]
+  },
+  {
+    "word": "necessary",
+    "pos": "adj.",
+    "meanings": [
+      "필요한"
+    ],
+    "phonetic": "/ˈnesəseri/",
+    "example_en": "Water is necessary for all living things.",
+    "example_target": "necessary",
+    "example_ko": "물은 모든 생물에게 필요하다.",
+    "confusables": [
+      "necessity"
+    ]
+  },
+  {
+    "word": "important",
+    "pos": "adj.",
+    "meanings": [
+      "중요한"
+    ],
+    "phonetic": "/ɪmˈpɔːrtənt/",
+    "example_en": "Breakfast is the most important meal of the day.",
+    "example_target": "important",
+    "example_ko": "아침 식사는 하루 중 가장 중요한 식사이다.",
+    "confusables": [
+      "impotent"
+    ]
+  },
+  {
+    "word": "useful",
+    "pos": "adj.",
+    "meanings": [
+      "유용한",
+      "쓸모 있는"
+    ],
+    "phonetic": "/ˈjuːsfəl/",
+    "example_en": "This app is very useful for learning English.",
+    "example_target": "useful",
+    "example_ko": "이 앱은 영어를 배우는 데 매우 유용하다.",
+    "confusables": [
+      "useless"
+    ]
+  },
+  {
+    "word": "useless",
+    "pos": "adj.",
+    "meanings": [
+      "쓸모없는"
+    ],
+    "phonetic": "/ˈjuːsləs/",
+    "example_en": "This old phone is useless now.",
+    "example_target": "useless",
+    "example_ko": "이 오래된 휴대폰은 이제 쓸모없다.",
+    "confusables": [
+      "useful"
+    ]
+  },
+  {
+    "word": "helpful",
+    "pos": "adj.",
+    "meanings": [
+      "도움이 되는",
+      "유용한"
+    ],
+    "phonetic": "/ˈhelpfəl/",
+    "example_en": "Your advice was very helpful to me.",
+    "example_target": "helpful",
+    "example_ko": "네 조언은 나에게 매우 도움이 되었다.",
+    "confusables": [
+      "harmful"
+    ]
+  },
+  {
+    "word": "harmful",
+    "pos": "adj.",
+    "meanings": [
+      "해로운"
+    ],
+    "phonetic": "/ˈhɑːrmfəl/",
+    "example_en": "Too much sugar is harmful to your health.",
+    "example_target": "harmful",
+    "example_ko": "너무 많은 설탕은 건강에 해롭다.",
+    "confusables": [
+      "helpful"
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>실시간 랭킹 · 영단어 800</title>
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/app.css">
+  <style>
+    /* 프로젝터 1920×1080 기준, 다크 배경, 최소 32px */
+    html { font-size: clamp(14px, 1.25vw, 24px); }
+    body { background: #0b0f1a; color: #eef2ff; overflow: hidden; height: 100vh; }
+    .b-wrap { height: 100vh; display: grid; grid-template-rows: auto auto 1fr; padding: 2vh 3vw; gap: 1.6vh; }
+    .b-head { display: flex; align-items: center; gap: 2vw; }
+    .b-title { font-size: 2.6rem; font-weight: 900; }
+    .b-pin { font-size: 2rem; font-weight: 800; color: #9fb0ff; letter-spacing: .1em; }
+    .b-count { margin-left: auto; display: flex; gap: 1.2vw; }
+    .b-count div { background: #151c2e; border-radius: 16px; padding: .5rem 1.4rem; text-align: center; min-width: 8rem; }
+    .b-count b { display: block; font-size: 2.6rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+    .b-count span { font-size: 1.35rem; color: #9aa5bf; }
+    .b-tabs { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+    .b-tabs button { font-size: 1.35rem; min-height: 3rem; padding: 0 1.2rem; border-radius: 999px; border: 2px solid #2f3a52; background: #151c2e; color: #cfd6ea; font-weight: 800; cursor: pointer; }
+    .b-tabs button[aria-pressed="true"] { background: #7b93ff; color: #0b0f1a; border-color: #7b93ff; }
+    .b-tabs .spacer { flex: 1; }
+    .b-list { position: relative; list-style: none; margin: 0; padding: 0; }
+    .b-row { position: absolute; left: 0; right: 0; height: 7.4vh; display: flex; align-items: center; gap: 2vw; padding: 0 2vw; border-radius: 18px; background: #151c2e; font-size: max(32px, 2.4rem); font-weight: 800; transition: transform .6s cubic-bezier(.2,.8,.2,1), background .4s; font-variant-numeric: tabular-nums; }
+    .b-row .rk { width: 3.2rem; text-align: center; font-size: 1.1em; }
+    .b-row .nm { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .b-row .sc { font-size: 1.05em; }
+    .b-row .ac { font-size: .6em; color: #9aa5bf; width: 7rem; text-align: right; }
+    .b-row.r1 { background: linear-gradient(90deg, #5c4400, #151c2e 70%); }
+    .b-row.r2 { background: linear-gradient(90deg, #3b4252, #151c2e 70%); }
+    .b-row.r3 { background: linear-gradient(90deg, #4a2c14, #151c2e 70%); }
+    .b-row.flash { background: #2b3a78; }
+    .b-row .up { color: #52c98a; font-size: .55em; }
+    .b-empty { font-size: 2.4rem; color: #9aa5bf; text-align: center; margin-top: 12vh; }
+    .b-wrong { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vh 2vw; }
+    .b-wrong div { background: #151c2e; border-radius: 16px; padding: 1.2vh 1.4vw; font-size: max(32px, 2rem); display: flex; gap: 1vw; align-items: baseline; }
+    .b-wrong b { font-size: 1.15em; }
+    .b-wrong .m { color: #9aa5bf; font-size: .75em; flex: 1; }
+    .b-wrong .r { color: #ff7b7b; font-weight: 900; }
+    .b-login { font-size: 2rem; text-align: center; margin-top: 30vh; }
+  </style>
+</head>
+<body>
+  <div id="board" class="b-wrap"></div>
+  <script src="/js/common.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    const { $, $$, esc, api, Realtime, GAME_NAMES, store } = App;
+    const roomId = new URLSearchParams(location.search).get('room');
+    const B = { tab: null, hide: store.get('b.hide', false), view: 'rank', prev: new Map(), info: null };
+    const el = $('#board');
+
+    async function loadInfo() {
+      B.info = await api(`/api/rooms/${roomId}/board`);
+      if (!B.tab || !B.info.tabs.some(t => key(t) === B.tab)) B.tab = B.info.tabs[0] ? key(B.info.tabs[0]) : null;
+    }
+    const key = t => `${t.stage}|${t.game_type}`;
+
+    function frame() {
+      const i = B.info;
+      el.innerHTML = `
+        <div class="b-head"><div class="b-title">${esc(i.room.name)}</div><div class="b-pin">PIN ${i.room.pin}</div>
+          <div class="b-count"><div><b id="cj">${i.joined}</b><span>참여</span></div><div><b id="cd">${i.done}</b><span>완료</span></div></div></div>
+        <div class="b-tabs">
+          ${i.tabs.map(t => `<button data-t="${key(t)}" aria-pressed="${B.view === 'rank' && B.tab === key(t)}">${esc(t.label)}</button>`).join('')}
+          <button data-v="wrong" aria-pressed="${B.view === 'wrong'}">📒 반 전체 오답 TOP 10</button>
+          <span class="spacer"></span>
+          <button id="hide" aria-pressed="${B.hide}">${B.hide ? '🙈 TOP 3만 이름 표시 중' : '이름 가리기'}</button>
+          <button id="fs">⛶</button>
+        </div>
+        <div id="body"></div>`;
+      $$('[data-t]').forEach(b => { b.onclick = () => { B.tab = b.dataset.t; B.view = 'rank'; B.prev.clear(); frame(); }; });
+      $('[data-v]').onclick = () => { B.view = 'wrong'; frame(); };
+      $('#hide').onclick = () => { B.hide = !B.hide; store.set('b.hide', B.hide); frame(); };
+      $('#fs').onclick = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen().catch(() => {});
+      B.view === 'wrong' ? drawWrong() : drawRank();
+    }
+
+    async function drawRank() {
+      const body = $('#body');
+      if (!B.tab) { body.innerHTML = '<p class="b-empty">게임 기록이 올라오면 여기에 순위가 나타나요.</p>'; return; }
+      const [stage, game] = B.tab.split('|');
+      const lb = await api(`/api/rooms/${roomId}/leaderboard?stage=${encodeURIComponent(stage)}&game=${game}`);
+      if (!lb.top.length) { body.innerHTML = '<p class="b-empty">아직 기록이 없어요. 첫 번째 주인공은 누구?</p>'; B.prev.clear(); return; }
+      let list = $('.b-list', body);
+      if (!list) { body.innerHTML = '<ol class="b-list" aria-label="TOP 10"></ol>'; list = $('.b-list', body); }
+      const rowH = window.innerHeight * 0.074 + window.innerHeight * 0.008;
+      list.style.height = rowH * lb.top.length + 'px';
+      const seen = new Set();
+      lb.top.forEach(x => {
+        seen.add(x.id);
+        let row = list.querySelector(`[data-id="${x.id}"]`);
+        const isNew = !row;
+        if (!row) { row = document.createElement('li'); row.dataset.id = x.id; row.className = 'b-row'; row.style.transform = `translateY(${rowH * 10}px)`; list.appendChild(row); }
+        const prev = B.prev.get(x.id);
+        const name = B.hide && x.rank > 3 ? '• • •' : esc(x.nickname);
+        row.className = `b-row r${x.rank}`;
+        row.innerHTML = `<span class="rk">${['🥇', '🥈', '🥉'][x.rank - 1] || x.rank}</span><span class="nm">${name} ${prev && prev.rank > x.rank ? `<span class="up">▲${prev.rank - x.rank}</span>` : ''}</span><span class="ac">${x.accuracy}%</span><span class="sc">${x.score.toLocaleString()}</span>`;
+        if (isNew || (prev && prev.score !== x.score)) { row.classList.add('flash'); setTimeout(() => row.classList.remove('flash'), 900); }
+        requestAnimationFrame(() => { row.style.transform = `translateY(${rowH * (x.rank - 1)}px)`; });
+        B.prev.set(x.id, { rank: x.rank, score: x.score });
+      });
+      $$('.b-row', list).forEach(r => { if (!seen.has(r.dataset.id)) r.remove(); });
+    }
+
+    async function drawWrong() {
+      const r = await api(`/api/rooms/${roomId}/report`);
+      $('#body').innerHTML = r.wrong_top.length
+        ? `<div class="b-wrong">${r.wrong_top.map((w, i) => `<div><span>${i + 1}</span><b lang="en">${esc(w.word)}</b><span class="m">${esc(w.meaning)}${w.top_wrong ? ` · 헷갈린 답: ${esc(w.top_wrong.word)}` : ''}</span><span class="r">${w.rate}%</span></div>`).join('')}</div>`
+        : '<p class="b-empty">오답 데이터가 쌓이면 여기에 나타나요. (단어별 5회 이상 출제)</p>';
+    }
+
+    let pending;
+    async function refresh() {
+      clearTimeout(pending);
+      pending = setTimeout(async () => {
+        const tabsBefore = B.info ? B.info.tabs.length : 0;
+        await loadInfo();
+        if (B.info.tabs.length !== tabsBefore || !$('#body')) return frame();
+        $('#cj').textContent = B.info.joined; $('#cd').textContent = B.info.done;
+        B.view === 'wrong' ? drawWrong() : drawRank();
+      }, 150);
+    }
+
+    async function boot() {
+      if (!roomId) { el.innerHTML = '<p class="b-login">방 정보가 없어요.</p>'; return; }
+      try { await loadInfo(); }
+      catch (e) { el.innerHTML = `<p class="b-login">${e.status === 401 ? '교사 로그인이 필요해요. <a href="/teacher.html">로그인</a>' : esc(e.message)}</p>`; return; }
+      frame();
+      new Realtime({ roomId, role: 'teacher', onEvent: ev => { if (['leaderboard.updated', 'student.joined', 'student.progress'].includes(ev.type)) refresh(); } });
+      setInterval(refresh, 15000);
+      addEventListener('resize', () => { B.view === 'rank' && drawRank(); });
+    }
+    boot();
+  })();
+  </script>
+</body>
+</html>
