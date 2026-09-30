@@ -36,6 +36,7 @@
           ${cfg.google ? '<div id="gbtn" style="display:flex;justify-content:center;margin-bottom:1rem"></div><p class="muted" style="text-align:center;margin:.2rem 0 1rem">또는</p>' : ''}
           <form id="magic">
             <div class="field"><label for="email">학교 이메일</label><input id="email" class="input" type="email" autocomplete="email" required placeholder="teacher@school.kr"></div>
+            ${cfg.needCode ? '<div class="field"><label for="code">교사 인증 코드</label><input id="code" class="input" type="password" autocomplete="off" required><span class="hint">서버 관리자가 정한 코드예요.</span></div>' : ''}
             <p class="error-text" id="err" role="alert">${esc(msg)}</p>
             <button class="btn primary block">로그인 링크 받기</button>
           </form>
@@ -46,7 +47,7 @@
     $('#magic').onsubmit = async e => {
       e.preventDefault();
       try {
-        const r = await api('/api/auth/magic', { method: 'POST', body: { email: $('#email').value } });
+        const r = await api('/api/auth/magic', { method: 'POST', body: { email: $('#email').value, code: $('#code') ? $('#code').value : undefined } });
         $('#sent').innerHTML = `<p style="margin-top:1rem">${r.sent ? '📧 메일로 로그인 링크를 보냈어요. 15분 안에 눌러 주세요.' : '📧 로그인 링크를 만들었어요.'}</p>
           ${r.devLink ? `<p class="muted" style="font-size:.85rem">개발 모드: 메일 발송이 설정되지 않아 링크를 바로 보여 드려요.</p><a class="btn block" href="${esc(r.devLink)}">이 링크로 로그인</a>` : ''}`;
       } catch (err) { $('#err').textContent = err.message; }

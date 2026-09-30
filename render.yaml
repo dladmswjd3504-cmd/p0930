@@ -1,0 +1,22 @@
+# Render 블루프린트 — Dashboard > New > Blueprint 에서 이 저장소를 고르면 자동 설정된다.
+services:
+  - type: web
+    name: voca800
+    runtime: node
+    plan: free                      # 무료: 15분 미사용 시 잠들고, 재시작·재배포 때 기록이 지워짐
+    buildCommand: npm ci
+    startCommand: node server/index.js
+    healthCheckPath: /api/stages
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NODE_ENV
+        value: production
+      - key: TEACHER_ACCESS_CODE    # 교사 로그인에 필요한 코드. Render가 무작위로 만들어 줌(Environment 탭에서 확인)
+        generateValue: true
+    # 기록을 계속 보관하려면 유료 플랜(starter 이상)으로 바꾸고 아래 주석을 푼다.
+    # disk:
+    #   name: data
+    #   mountPath: /var/data
+    #   sizeGB: 1
+    # 그리고 envVars에 DATA_DIR=/var/data 추가

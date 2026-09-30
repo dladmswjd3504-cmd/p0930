@@ -28,8 +28,18 @@ Node.js는 `.runtime/node`에 휴대용으로 들어 있어 따로 설치할 필
 | `PUBLIC_URL` | 공유 링크·QR에 들어갈 주소 (예: `https://voca.school.kr`) |
 | `GOOGLE_CLIENT_ID` | 설정하면 교사 로그인에 Google 버튼이 나옴 |
 | `MAIL_WEBHOOK_URL` | 매직링크 메일 발송용 웹훅 (`{to, subject, text}` POST). 미설정 시 링크를 화면·서버 로그에 표시(개발 모드) |
-| `NODE_ENV=production` | 개발용 링크 표시 끄기, 쿠키 Secure |
+| `TEACHER_ACCESS_CODE` | 메일 발송이 없을 때 이 코드를 아는 사람에게만 로그인 링크를 보여 줌(공개 서버 필수) |
+| `NODE_ENV=production` | 인증 코드 없이는 로그인 링크를 보여 주지 않음, 쿠키 Secure |
 | `DATA_DIR` | DB·음성 파일 저장 위치 (기본 `var/`) |
+
+## Render 배포
+
+1. https://render.com 에 GitHub 계정으로 가입합니다.
+2. Dashboard → **New → Blueprint** → 이 저장소(`p0930`)를 고르고 **Apply**를 누릅니다. `render.yaml`대로 자동 설정됩니다.
+3. 배포가 끝나면 `https://voca800-xxxx.onrender.com` 같은 주소가 나옵니다. 학생은 이 주소로, 교사는 뒤에 `/teacher.html`을 붙여 접속합니다.
+4. 교사 로그인에 필요한 **교사 인증 코드**는 서비스의 **Environment** 탭 `TEACHER_ACCESS_CODE`에 있습니다(원하는 값으로 바꿔도 됩니다).
+
+무료 플랜 주의: 15분 동안 접속이 없으면 잠들어 첫 접속이 30~60초 걸리고, **재시작·재배포 때 방과 기록이 모두 지워집니다.** 수업 전에 한 번 접속해 깨워 두고, 수행평가 자료는 그날 엑셀로 내려받아 두세요. 기록을 계속 보관하려면 유료 플랜과 디스크가 필요합니다(`render.yaml` 주석 참고).
 
 ## 구조
 

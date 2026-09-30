@@ -1,5 +1,6 @@
 'use strict';
 const path = require('path');
+const crypto = require('crypto');
 const express = require('express');
 const QRCode = require('qrcode');
 const { all, get, run, tx } = require('./db');
@@ -98,7 +99,7 @@ function newPin() {
 }
 
 function shareInfo(req, room) {
-  const origin = process.env.PUBLIC_URL || `${req.protocol}://${req.get('host')}`;
+  const origin = process.env.PUBLIC_URL || process.env.RENDER_EXTERNAL_URL || `${req.protocol}://${req.get('host')}`;
   return { link: `${origin}/?pin=${room.pin}` };
 }
 
@@ -116,18 +117,41 @@ function startTeacherSession(res, email, name) {
   return t;
 }
 
-app.get('/api/auth/config', (req, res) => res.json({ google: GOOGLE_CLIENT_ID || null, devMagic: DEV_MAGIC }));
+// 메일 발송이 없을 때 로그인 링크를 화면에 바로 보여 준다. 공개 서버에서는 교사 인증 코드를 아는 사람에게만.
+const MAIL_ON = !!process.env.MAIL_WEBHOOK_URL;
+const ACCESS_CODE = process.env.TEACHER_ACCESS_CODE || '';
+const codeFails = new Map(); // ip -> { n, until }
+
+function checkAccessCode(req) {
+  const ip = req.ip || 'x';
+  const f = codeFails.get(ip);
+  if (f && f.until > Date.now() && f.n >= 10) throw new HttpError(429, 'TOO_MANY', '인증 코드를 너무 많이 틀렸어요. 15분 뒤에 다시 시도하세요.');
+  const given = Buffer.from(String(req.body.code || '').trim());
+  const want = Buffer.from(ACCESS_CODE);
+  if (given.length === want.length && crypto.timingSafeEqual(given, want)) { codeFails.delete(ip); return; }
+  codeFails.set(ip, { n: (f && f.until > Date.now() ? f.n : 0) + 1, until: Date.now() + 15 * 60e3 });
+  throw new HttpError(403, 'BAD_CODE', '교사 인증 코드가 올바르지 않아요.');
+}
+
+app.get('/api/auth/config', (req, res) => res.json({ google: GOOGLE_CLIENT_ID || null, needCode: !MAIL_ON && !!ACCESS_CODE }));
 
 app.post('/api/auth/magic', wrap(async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) throw bad('이메일 주소를 확인해 주세요.');
+  let showLink = false;
+  if (!MAIL_ON) {
+    if (ACCESS_CODE) { checkAccessCode(req); showLink = true; }
+    else if (DEV_MAGIC) showLink = true;
+    else throw new HttpError(503, 'NO_MAIL', '메일 발송이 설정되지 않았어요. 서버 관리자에게 TEACHER_ACCESS_CODE 설정을 요청하세요.');
+  }
   const tok = token();
   run(`INSERT INTO magic_tokens (token, email, expires_at) VALUES (?, ?, ?)`, tok, email, Date.now() + 15 * 60e3);
-  const origin = process.env.PUBLIC_URL || `${req.protocol}://${req.get('host')}`;
+  const origin = process.env.PUBLIC_URL || process.env.RENDER_EXTERNAL_URL || `${req.protocol}://${req.get('host')}`;
   const link = `${origin}/api/auth/verify?token=${tok}`;
-  const sent = await sendMagicMail(email, link);
-  console.log(`[magic-link] ${email} → ${link}`);
-  res.json({ sent, devLink: DEV_MAGIC ? link : undefined });
+  const sent = MAIL_ON ? await sendMagicMail(email, link) : false;
+  if (MAIL_ON && !sent) throw new HttpError(502, 'MAIL_FAIL', '로그인 메일을 보내지 못했어요. 잠시 후 다시 시도하세요.');
+  if (!MAIL_ON) console.log(`[magic-link] ${email} → ${link}`);
+  res.json({ sent, devLink: showLink ? link : undefined });
 }));
 
 async function sendMagicMail(email, link) {
