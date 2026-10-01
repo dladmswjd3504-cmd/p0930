@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://voca800.onrender.com/$1", "permanent": false }
+  ]
+}
