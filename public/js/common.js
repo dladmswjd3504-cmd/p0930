@@ -12,7 +12,11 @@
     del(k) { try { localStorage.removeItem(k); } catch {} }
   };
 
-  const SERVER_HINT = '앱 서버에 연결되지 않았어요. start.bat으로 서버를 켠 뒤 http://localhost:3000 주소로 접속해 주세요. (파일을 직접 열거나 Live Server로 열면 작동하지 않아요)';
+  // 내 PC·교실망에서 연 경우와 인터넷 주소(Vercel 등 화면만 올리는 곳)에서 연 경우를 나눠 안내
+  const isLocal = location.protocol === 'file:' || /^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname);
+  const SERVER_HINT = isLocal
+    ? '앱 서버에 연결되지 않았어요. start.bat으로 서버를 켠 뒤 http://localhost:3000 주소로 접속해 주세요. (파일을 직접 열거나 Live Server로 열면 작동하지 않아요)'
+    : `이 주소(${location.hostname})에는 화면만 올라가 있고 앱 서버가 없어서 로그인·입장이 되지 않아요. 앱 서버가 실행 중인 주소(Render 등)로 접속해 주세요.`;
 
   class ApiError extends Error {
     constructor(status, body) { super(body.error || '요청을 처리하지 못했어요.'); this.status = status; this.code = body.code; this.body = body; }
